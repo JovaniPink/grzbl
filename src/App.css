@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: #FFAAAA;
+  color: black;
+}
+
+.App-header {
+  min-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.header-main-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.navbar-bottom {
+  position: sticky;
+  min-height: 6vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-bottom-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
